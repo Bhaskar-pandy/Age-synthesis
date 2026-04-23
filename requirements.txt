@@ -1,0 +1,11 @@
+torch
+torchvision
+gradio
+numpy
+tqdm
+requests
+ninja
+click
+pyspng
+scipy
+pillow

@@ -1,0 +1,100 @@
+/* Clean Premium Dark Theme */
+:root {
+    --primary-blue: #3b82f6;
+    --primary-hover: #2563eb;
+    --bg-dark: #0f172a;
+    --card-bg: #1e293b;
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+.gradio-container {
+    background-color: var(--bg-dark) !important;
+    font-family: 'Inter', system-ui, sans-serif !important;
+    color: #f1f5f9 !important;
+}
+
+/* Hide Gradio Branding */
+footer { display: none !important; }
+.show-api-button { display: none !important; }
+
+#header-container {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#header-logo {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+#header-container h2 {
+    margin: 0 !important;
+    font-size: 1.1rem !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid var(--primary-blue);
+    border-radius: 4px;
+    color: var(--primary-blue);
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.glass-card {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 12px !important;
+    padding: 2rem !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Action Button */
+#run-btn {
+    background: var(--primary-blue) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 700 !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+    margin-top: 1rem !important;
+    transition: all 0.2s ease !important;
+}
+
+#run-btn:hover {
+    background: var(--primary-hover) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4) !important;
+}
+
+/* Image Polish */
+.input-image, .output-image {
+    background: #0f172a !important;
+    border-radius: 8px !important;
+}
+
+/* Custom Footer Styling */
+#custom-footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+}
+
+#custom-footer p {
+    color: #64748b;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+

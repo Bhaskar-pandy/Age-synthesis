@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Large weight files (StyleGAN2 weights)
+weights/
+*.pkl
+*.npy
+
+# Temporary/Generated images
+test_age_shift.png
+test_generator_output.png
+*.png
+*.jpg
+*.jpeg
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Project-specific ignores
+stylegan2-ada-pytorch/.github/
